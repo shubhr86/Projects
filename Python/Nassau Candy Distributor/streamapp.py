@@ -14,7 +14,7 @@ st.markdown("Decision Intelligence Dashboard for Factory Reallocation & Shipping
 # Load Data
 # ----------------------------
 
-df = pd.read_csv("nassau candy dis.csv")
+df = pd.read_csv("Nassau Candy Distributor.csv")
 
 df["Order Date"] = pd.to_datetime(df["Order Date"], dayfirst=True)
 df["Ship Date"] = pd.to_datetime(df["Ship Date"], dayfirst=True)
